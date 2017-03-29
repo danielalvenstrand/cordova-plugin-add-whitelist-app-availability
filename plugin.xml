@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-add-whitelist-app-availability" version="0.1.2" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>App Availability Whitelist</name>
+    <author>Nguyen Tran (https://nguyentr.com/)</author>
+    <description>Cordova / PhoneGap Plugin to add white-list to the Info.plist file to bypass AppAvailability on the iOS 9.2 changes</description>
+    <keywords>cordova, ios, app, security, transport, http, https, ats,
+        ssl, tls, appavailability</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+      <config-file target="*-Info.plist">
+          <dict>
+            <key>LSApplicationQueriesSchemes</key>
+            <array>
+            <string>twitter</string>
+            <string>whatsapp</string>
+            </array>
+          </dict>
+      </config-file>
+    </platform>
+</plugin>
