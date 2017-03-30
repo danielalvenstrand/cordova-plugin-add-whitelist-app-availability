@@ -16,6 +16,9 @@ cordova plugin add cordova-plugin-add-whitelist-app-availability
 cordova plugin add https://github.com/nguyentk90/cordova-plugin-add-whitelist-app-availability
 ```
 
+## Usage:
+This plugin contains specific app URL schemes for specific use, if you want to use, just clone and add your url schemes.
+
 Find more about App Availability:  
 https://github.com/ohh2ahh/AppAvailability
 
