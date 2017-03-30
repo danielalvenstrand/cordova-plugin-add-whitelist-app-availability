@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-add-whitelist-app-availability",
-  "version": "0.1.5",
+  "version": "0.1.4",
   "author": "Nguyen Tran <hello@nguyentr.com> (https://nguyentr.com/)",
   "description": "Cordova / PhoneGap Plugin to add whitelist to the Info.plist file to bypass AppAvailability on the iOS 9.2 and above changes",
   "cordova": {
