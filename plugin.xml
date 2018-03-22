@@ -12,6 +12,7 @@
       <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">         
         <array>
             <string>bankid</string>
+            <string>fb-messenger</string>
         </array>          
       </config-file>
     </platform>
