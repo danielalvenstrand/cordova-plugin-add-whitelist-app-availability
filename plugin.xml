@@ -11,7 +11,7 @@
     <platform name="ios">
       <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">         
         <array>
-            <string>walinsertconvetertest</string>
+            <string>bankid</string>
         </array>          
       </config-file>
     </platform>
